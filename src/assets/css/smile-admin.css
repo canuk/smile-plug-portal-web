@@ -1,0 +1,199 @@
+.smile-admin-logo {
+    background: url(../img/plug-logo.png);
+    display: inline-block;
+    width: 188px;
+    height: 60px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
+.brand.smile-logo {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.logo-subtext {
+    display: inline-block !important;
+    vertical-align: middle;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.ace-nav.pull-right {
+    height: 64px;
+}
+.ace-nav-li {
+    border-left: none !important;
+}
+.navbar-inner {
+    background-color: #344149 !important;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 100%;
+}
+.navbar-inner .container-fluid {
+    height: 100%;
+}
+
+.sidebar-shortcuts-large {
+    height: 37px;
+}
+
+@media only screen and (max-width: 979px) {
+    .sidebar-shortcuts-large {
+        display: none;
+    }
+}
+
+.btn-app {
+    line-height: 20px !important;
+    min-height: 109px;
+    margin-bottom: 32px !important;
+    margin-left: 7% !important;
+    margin-right: 7% !important;
+}
+
+.smile-logo-grey {
+    background: url(../img/smile-logo-grey.png);
+}
+
+.khan-logo-white {
+    background: url(../img/ka-logo.png);
+}
+
+.wiki-logo {
+    background: url(../img/wikipedia.png);
+}
+
+.file-logo-white {
+    background: url(../img/file-logo.png);
+}
+
+.logo {
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 9px;
+    pointer-events:none;
+}
+button.navbar-btn {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    height: 100%;
+}
+.nav-tabs-li.active {
+    background-color: #4383B4 !important;
+    color: #FFF !important;
+}
+
+.modal-bg {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.4;
+}
+
+.modal-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+@media (min-width: 768px) {
+    .resource {
+        min-height: 300px !important;
+    }
+}
+
+.resource-img {
+    margin-bottom: 10px;
+}
+.resource-logo {
+    width: 50px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 9px;
+    pointer-events:none;
+}
+.resource-title {
+    font-size: 31px;
+    line-height: 40px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    text-rendering: optimizelegibility;
+}
+.resource-description {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    margin: 0 0 10px;
+}
+.row-fluid.span12 {
+    margin-left: 0 !important;
+}
+.row-fluid [class*="span"] {
+    margin-left: 0 !important;
+    padding: 0 18px 0 10px !important;
+}
+/* Top Bar Menu */
+/* Collapsed */
+@media only screen and (max-width: 979px) {
+    .breadcrumbs {
+        display: none !important;
+    }
+    .nav-list > li > a {
+        font-size: 16px !important;
+        line-height: 44px !important;
+        background-color: #344149 !important;
+        color: #FFF !important;
+    }
+    .nav-list > li.active > a {
+        color: #2b7dbc !important;
+    }
+    .nav-list > li {
+        height: 45px !important;
+        background-color: #344149 !important;
+        border-bottom: 1px solid #05131D !important;
+        border-top: 1px solid #54575C !important;
+    }
+    .sidebar.display {
+        width: 100%;
+        margin-top: 0 !important;
+        border: 1px solid #313E46 !important
+    }
+    .sidebar-shortcuts {
+        border-bottom: 1px solid #05131D !important;
+    }
+    .smile-admin-logo {
+        background: url(../img/plug-logo-small.png) !important;
+        width: 128px !important;
+        height: 41px !important;
+    }
+    .menu-toggler {
+        right: 0 !important;
+        top: 8px !important;
+        left: auto !important;
+        background-color: inherit !important;
+    }
+    .menu-toggler > .menu-text {
+         border-top-color: #FFF !important;
+     }
+    .logo-subtext {
+        display: none !important;
+    }
+    .brand.smile-logo {
+        padding-left: 12px !important;
+    }
+    .container-fluid {
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(54,63,110,0.75);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(54,63,110,0.75);
+        box-shadow: 0px 1px 3px 0px rgba(54,63,110,0.75);
+    }
+}

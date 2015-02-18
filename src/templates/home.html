@@ -1,0 +1,49 @@
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <ul class="breadcrumb">
+        </ul><!--.breadcrumb-->
+    </div>
+    <div class="page-content">
+        <div class="page-header position-relative">
+            <h1>
+                Applications
+            </h1>
+        </div>
+        <!--/.page-header-->
+
+        <div class="row-fluid">
+            <div class="span12">
+                <!--PAGE CONTENT BEGINS-->
+                <% if (showWelcomeMsg) { %>
+                <div class="alert alert-block alert-success">
+
+                    <i class="icon-ok green"></i>
+
+                    Welcome to
+                    <strong class="green">
+                        SMILE Plug
+                        <small>(v1)</small>
+                    </strong>
+                    ,
+                    the portable learning cloud.
+                </div>
+                <% } %>
+
+                <div class="row-fluid">
+                    <% _.each(apps, function(app) { %>
+                    <div class="span4 resource">
+                        <div class="resource-img">
+                            <a href="<% if (app.hash) { %>#<%= app.hash %><% } else { %>#<% } %>"><img src="<%= app.image %>" data-app-id="<%= app.id %>" /></a>
+                        </div>
+                        <p class="resource-description"><%= app.description %></p>
+                        <p class="align-right"><a class="btn-bootstrap resource-btn" data-app-id="<%= app.id %>" href="<% if (app.hash) { %>#<%= app.hash %><% } else { %>#<% } %>">Enter »</a></p>
+                    </div>
+                    <% }); %>
+                </div>
+            </div>
+            <!--/.page-content-->
+        </div>
+        <!--/.main-content-->
+    </div>
+    <!--/.main-container-->
+</div>
