@@ -6,16 +6,16 @@
  $ gem update --system
  $ gem install compass
  */
+minify = require('minify');
 
 var util = require('util'),
     jakeutils = require('jakeutils'),
-    minify = require('minify')
     fs = require('fs'),
     _ = require('underscore'),
     jake = require('./node_modules/jakeutils/node_modules/jake'),
     ensureDir = require('ensureDir'),
     rmdir = require('rmdir'),
-    sys = require('sys'),
+    sys = require('util'),
     exec = require('child_process').exec,
     wrench = require('wrench'),
     compressor = require('node-minify');

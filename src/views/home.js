@@ -56,10 +56,10 @@
                 description: "The easy way to learn programming! Turtle Academy makes it surprisingly easy to start creating amazing shapes using the LOGO language."
             });
             this.apps.push({
-                title: "Repl.it",
-                id: "replit",
-                image: img_dir + "replit.png",
-                description: "Repl.it is an online environment for interactively exploring programming languages. The name comes from the read-eval-print loop, the interactive toplevel used by languages like Ruby, Lisp and Python."
+                title: "Blockly Games",
+                id: "blockly-games",
+                image: img_dir + "blockly-games-logo.png",
+                description: "Blockly Games is a series of educational games that teach programming. It is designed for children who have not had prior experience with computer programming. By the end of these games, players are ready to use conventional text-based languages."
             });
             this.apps.push({
                 title: "Code Monster",
@@ -125,13 +125,13 @@
             console.log(id);
             if (id == "smile") {
                 logger.info("navigating to app smile");
-                window.location = "http://smileglobal.net/";
+                window.location = window.location.origin + "/smile/frontend/src/";
             } else if (id == "wikipedia") {
                 logger.info("navigating to wikipeda");
-                window.location =  "http://schools-wikipedia.org/";
+                window.location =  window.location.origin + ":8001/";
             } else if (id == "khan") {
                 logger.info("navigating to khan");
-                window.location =  "http://demo.learningequality.org/";
+                window.location =  window.location.origin + ":8008/";
             } else if (id == "gutenberg") {
                 logger.info("navigating to gutenberg");
                 window.location =  window.location.origin + "/gutenberg/";
@@ -158,16 +158,16 @@
                 window.location =  window.location.origin + "/simulations/";
             } else if (id == "snap") {
                 logger.info("navigating to snap");
-                window.location =  "http://snap.berkeley.edu/snapsource/snap.html";
-            } else if (id == "replit") {
-                logger.info("navigating to replit");
-                window.location =  "http://repl.it";
+                window.location =  window.location.origin + "/snap/";
+            } else if (id == "blockly-games") {
+                logger.info("navigating to blockly-games");
+                window.location =  window.location.origin + "/blockly-games/";
             } else if (id == "codemonster") {
                 logger.info("navigating to codemonster");
-                window.location =  "http://www.crunchzilla.com/code-monster";
+                window.location =  window.location.origin + "/code_monster/";
             } else if (id == "turtleacademy") {
                 logger.info("navigating to turtleacademy");
-                window.location =  "http://turtleacademy.com/";
+                window.location =  window.location.origin + "/turtle-academy/";
             } else if (id == "soebookshelf") {
                 logger.info("navigating to soebookshelf");
                 window.location =  window.location.origin + "/soe-bookshelf/";
